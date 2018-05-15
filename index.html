@@ -21,19 +21,28 @@
 			<ul>
 				<li><a href="#">Guide</a></li>
 				<li><a href="#">Config Reference</a></li>
-				<li><a href="#">Default Theme config</a><i class="fa fa-caret-down"></i></li>
-				<li><a href="#">Languages</a><i class="fa fa-caret-down"></i></li>
-				<li><a href="http://www.google.com">Github</a><i class="fa fa-external-link"></i></li>
+				<li><a href="#">Default Theme config</a></li>
+				<li><a href="#">Languages<i class="fa fa-caret-down"></i></a>
+					<p>English</p>
+					<p>Français</p>
+					<p>Japonais</p>
+				</li>
+				<li><a href="http://www.google.com">Github<i class="fa fa-external-link"></i></a>
+				</li>
 			</ul>
 		</header>
-<hr>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
-			
+			$(document).ready(function(){
 				$('.fa-caret-down').click(function(){
-					
-					alert("hjsgjdhs");
+					$('p').toggle();		
 				});
+			$('h1').click(function(){
+				$('ul').toggleClass('active');
+			});
+			})
+			
 			
 	</script>
 	</body>
