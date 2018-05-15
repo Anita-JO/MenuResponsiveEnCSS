@@ -34,16 +34,16 @@ input[type="search"]{
 	padding:6px 42px 6px 20px;
 }
 .submit-button {
-	background:url("../img/icon-search.png") no-repeat;
-	background-position:20% 10%;
-	background-color:gray;
+	background:url("../img/icon-cross.png") no-repeat;
+	background-position:5% 27%;
+	
 	border:0;
-	height:17px;
+	height:25px;
 	position:absolute;
-	left:29%;
+	left: 28%;
 	text-indent: -9999px;
-	top:4.4%;
-	width: 17px;
+	top:3.4%;
+	width: 29px;
 }
 
 header ul {
