@@ -1,0 +1,12 @@
+{
+  "name": "Designcss",
+  "version": "1.0.0",
+  "description": "Responsive designs",
+  "main": "index.js",
+  "repository": "https://github.com/techani21/MenuResponsiveEnCSS.git",
+  "author": "Anita <anirosaire021@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
